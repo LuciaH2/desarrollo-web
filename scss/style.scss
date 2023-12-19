@@ -1,0 +1,129 @@
+
+header{
+    display: flex;
+    padding: 0 30px 0 30px;
+    justify-content: space-between;
+    height: 10vh;
+    nav{
+        ul{
+            color: black;
+            list-style: none;
+            display: flex;
+            gap: 3rem;
+            font-size: 1.3rem;
+        }
+        }   
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+body{
+    background-color:#ffffff;
+    color: black;
+}
+
+main{
+    padding: 30px 0;
+}
+.espacio{
+    height: 75vh;
+}
+
+.ingreso{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 70px 30px 0px 0;
+}
+#post {
+    width: 50%;
+    height: 50%;
+    padding: 10px;;
+}
+.buscando{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    .footer {
+        color: black;
+        display: flex;
+        padding: 0 30px;
+    }
+    .espaciado-footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        }
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: column
+}
+
+article:nth-child(1) {
+    justify-content: flex-start;
+}
+
+article:nth-child(2) {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+article:nth-child(3) {
+    align-items: flex-end;
+}
+
+.logo {
+    padding: 10px 30px 10px 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 {
+    width: 100%;
+    height: 100%;
+}
+
+.tamano {
+    width: 100%;
+    height: auto;
+    display: block;
+}    
+
+#columna{
+    display: grid;
+    grid-template-columns: 150px;
+}
