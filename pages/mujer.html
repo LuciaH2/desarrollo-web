@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Mujer</title>
 </head>
 
@@ -14,7 +14,7 @@
     <header>
         <nav class="menu">
             <a class="logo2" href="../index.html"><img class="logo" src="../imagenes/logo-sahade.jpg" alt="sahade"></a>
-            <ul>
+            <ul class="menucolumn">
                 <li><a href="../pages/hombre.html">Hombre</a></li>
                 <li><a href="../pages/mujer.html">Mujer</a></li>
                 <li><a href="../pages/ninos.html">Niños</a></li>
@@ -22,15 +22,15 @@
         </nav>
         <nav class="menu">
             <ul>
-                <li>carrito</li>
+                <li>Carrito</li>
                 <li><a href="../pages/login.html">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="menu">
-            <div class="dropdown">
+        <section class="menu" id="filtro">
+            <div class="dropdown" id="mediafiltro">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Filtrar
@@ -41,82 +41,70 @@
                     <li><a class="dropdown-item" href="#">precio</a></li>
                 </ul>
             </div>
-            <!-- <section class="menu">
-            <h1>Filtrar</h1>
-            <form id="separar" action="form.php">Talle
-                <select name="" id="">
-                    <option value="">S</option>
-                    <option value="">M</option>
-                    <option value="">L</option>
-                    <option value="">XL</option>
-                </select>
-            </form>
-            <form id="separar" action="form.php">Deporte
-                <select name="" id="">
-                    <option value="">TRAINING</option>
-                    <option value="">RUNNING</option>
-                    <option value="">DEPORTES</option>
-                </select>
-            </form>
-            <form id="separar" action="form.php"> precio
-                <select name="" id="">
-                    <option value="">$2000 a $5000</option>
-                    <option value="">$5000 a 10000</option>
-                </select>
-            </form>
-        </section> -->
-            <section class="grid-container">
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/adidas-mujer.jpg" alt="zapatilla adidas mujer">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/zapanike-mujer.jpg" alt="zapatilla nike mujer">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/deportivo1.jpg" alt="conjunto deportivo nike">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/deportivo-2.jpg" alt="conjunto deportivo adidas">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/buzo-puma.jpg" alt="buzo puma mujer">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/calza-puma.jpg" alt="calza negra puma">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/remera-adidass.jpg" alt="remera adidas mujer">
-                    <button>agregar al carrito</button>
-                </div>
-                <div class="productos">
-                    <img src="../imagenes/imagenes-mujer/botines-mujer.jpg" alt="botin futbol mujer">
-                    <button>agregar al carrito</button>
-                </div>
-            </section>
+        </section>
+        <section class="grid-container">
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/adidas-mujer.jpg" alt="zapatilla adidas mujer">
+                <button>agregar al carrito</button>
+                <p>Zapatilla Adidas, talle 37</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/zapanike-mujer.jpg" alt="zapatilla nike mujer">
+                <button>agregar al carrito</button>
+                <p>Zapatilla Nike, talle 38</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/deportivo1.jpg" alt="conjunto deportivo nike">
+                <button>agregar al carrito</button>
+                <p>Conjunto deportivo Nike, talle M</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/deportivo-2.jpg" alt="conjunto deportivo adidas">
+                <button>agregar al carrito</button>
+                <p>Conjunto deportivo Adidas, talle L</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/buzo-puma.jpg" alt="buzo puma mujer">
+                <button>agregar al carrito</button>
+                <p>Buzo Puma, talle XS</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/calza-puma.jpg" alt="calza negra puma">
+                <button>agregar al carrito</button>
+                <p>Calza negra Puma, talle M</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/remera-adidass.jpg" alt="remera adidas mujer">
+                <button>agregar al carrito</button>
+                <p>Remera Adidas, talle S</p>
+            </div>
+            <div class="productos">
+                <img class="tamano" src="../imagenes/imagenes-mujer/botines-mujer.jpg" alt="botin futbol mujer">
+                <button>agregar al carrito</button>
+                <p>Botin futbol, talle 37</p>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <section class="espaciado-footer">
             <article>
-                <h6>locales</h6>
+                <h6>Locales</h6>
                 <nav>
-                    <a href="https://goo.gl/maps/HY55z1ySnodngjqp7">casa central</a>
-                    <a href="https://goo.gl/maps/FoP2E5owHCTYYtT8A">outlet</a>
+                    <a href="https://goo.gl/maps/HY55z1ySnodngjqp7" target="_blank">Casa Central</a>
+                    <a href="https://goo.gl/maps/FoP2E5owHCTYYtT8A" target="_blank">Outlet</a>
                 </nav>
             </article>
             <article>
+                <nav>
+                    <a href="../pages/nosotros.html">Nosotros</a>
+                </nav>
                 <h6>Copyright Lucia Heredia</h6>
             </article>
             <article>
-                <h6>seguinos</h6>
+                <h6>Seguinos</h6>
                 <nav>
-                    <a href="https://www.instagram.com/sahadedeportes/">instagram</a>
-                    <a href="https://www.facebook.com/sahadedeportes/">facebook</a>
+                    <a href="https://www.instagram.com/sahadedeportes/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/sahadedeportes/" target="_blank">Facebook</a>
                 </nav>
             </article>
         </section>
