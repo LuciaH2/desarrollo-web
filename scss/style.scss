@@ -294,6 +294,11 @@ article:nth-child(3) {
             padding: 100px 0px 0px 0px;
             grid: flex;
             flex-direction: column;
+
+            img {
+                max-width: 50vh;
+                padding: 20px;
+            }
         }
 
     }

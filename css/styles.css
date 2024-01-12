@@ -207,6 +207,9 @@ article:nth-child(3) {
     padding: 100px 0px 0px 0px;
     grid: flex;
     flex-direction: column; }
+    main .contenedor img {
+      max-width: 50vh;
+      padding: 20px; }
   footer .article {
     flex-basis: 100%;
     margin-bottom: 20px; } }
